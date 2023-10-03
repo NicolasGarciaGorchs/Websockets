@@ -1,0 +1,30 @@
+{{!-- //ANTERIOR EJERCICIO --}}
+{{!-- <h1>Hola {{name}}</h1>
+
+{{#if isAdmin}}
+    <h5>Nombre</h5>
+    <p>{{object.name}}</p>
+    <br>
+    <h5>Apellido</h5>
+    <p>{{object.lastname}}</p>
+    <br>
+    <h5>País</h5>
+    <p>{{object.country}}</p>
+    <br>
+    <h3>Juguetes</h3>
+    {{#each toys}} 
+    {{!-- EACH ES COMO DECIR "PARA CADA ELEMENTO DE" EN ESTE CASO toys --}}
+    {{!-- Y CON this NOS REFERIMOS A CADA ELEMENTO DE toys --}}
+    <div>
+        <h3>Nombre</h3>
+        <p>{{this.name}}</p>
+        <h4>Precio</h4>
+        <p>{{this.price}}</p>
+    </div>
+    {{/each}}
+{{else}}
+    <h3>USUARIO NO ADMINISTRADOR</h3>
+{{/if}} --}}
+
+
+//git rm --cached -r ./node_modules CON ESTE COMANDO SE BORRA node_modules DE GITHUB
